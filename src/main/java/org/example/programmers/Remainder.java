@@ -11,6 +11,6 @@ public class Remainder {
 
     public static void main(String[] args) {
         Remainder r = new Remainder();
-        System.out.println(r.solution(3,2));
+        System.out.println(r.solution(10,-8));
     }
 }

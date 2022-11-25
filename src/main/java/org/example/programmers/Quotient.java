@@ -11,6 +11,6 @@ public class Quotient {
 
     public static void main(String[] args) {
         Quotient q = new Quotient();
-        System.out.println(q.solution(10,5));
+        System.out.println(q.solution(10,-8));
     }
 }
