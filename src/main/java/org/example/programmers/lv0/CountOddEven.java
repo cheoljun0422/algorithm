@@ -16,18 +16,18 @@ public class CountOddEven {
         for (int i = 0; i < num_list.length; i++) {
             if(num_list[i] % 2 == 0) {
                 System.out.println("even :" + num_list[i]);
-                even++;
+                answer[0] = ++even;
                 System.out.println("answer[0] :" + answer[0]);
                 System.out.println("even :" + even);
             } else {
                 System.out.println("odd :" + num_list[i]);
-                odd++;
+                answer[1] = ++odd;
                 System.out.println("answer[1] :" + answer[1]);
                 System.out.println("odd :" + odd);
             }
         }
-        answer[0] = even;
-        answer[1] = odd;
+//        answer[0] = even;
+//        answer[1] = odd;
         return answer;
     }
 
