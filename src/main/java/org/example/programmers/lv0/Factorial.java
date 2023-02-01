@@ -26,5 +26,6 @@ public class Factorial {
     public static void main(String[] args) {
         Factorial f = new Factorial();
         System.out.println(f.solution(3628800));
+        System.out.println(f.method(10));
     }
 }
